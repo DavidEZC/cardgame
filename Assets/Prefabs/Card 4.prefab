@@ -171,6 +171,7 @@ GameObject:
   - component: {fileID: 2101402527164643146}
   - component: {fileID: 2574749329343809475}
   - component: {fileID: 5277322168415507719}
+  - component: {fileID: -2423415737785785611}
   m_Layer: 5
   m_Name: Card 4
   m_TagString: Untagged
@@ -289,6 +290,25 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &-2423415737785785611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3282431401267363759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed4445b7bbac924cbe0e49fc815c041, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  card: {fileID: 0}
+  nameText: {fileID: 6063138424511621825}
+  descriptionText: {fileID: 6373265399878668614}
+  artworkImage: {fileID: 1072028925081551614}
+  manaText: {fileID: 4922456835069481551}
+  attackText: {fileID: 6362963300759354452}
+  healthText: {fileID: 757759988827368713}
 --- !u!1 &4688050391075217941
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,7 +531,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: d26644f888a8c104ca3a2e13f11d0bd6, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -711,7 +731,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -0.13, y: 7.5}
+  m_AnchoredPosition: {x: -0.13000107, y: 7.5}
   m_SizeDelta: {x: -53.98, y: 49.49}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &1935835195847065941
